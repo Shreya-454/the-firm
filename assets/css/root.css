@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+    /* font-size */
+    --fs-xs: 10px;
+    --fs-s: 12px;
+    --fs-sm: 14px;
+    --fs-md: 17px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-2xl: 30px;
+    --fs-3xl: 40px;
+    --fs-4xl: 44px;
+    /* colors */
+    --bs-yellow: #FACA10;
+    --bs-yellow-shadow: #FACA1059;
+    --bs-white: #FFFFFF;
+    --bs-black: #1E1E1E;
+    --bs-grey: #C4C4C4;
+    --bs-lightgrey: #F2F2F2;
+    --bs-offwhite: #F7F7F7;
+    /* font-family */
+    --ff-lora: 'lora', serif;
+    --ff-nunito: 'nunito', sans-serif;
+
+}
+
+/* font-size */
+.fs-10 {
+    font-size: var(--fs-xs);
+}
+
+.fs-12 {
+    font-size: var(--fs-s);
+}
+
+.fs-14 {
+    font-size: var(--fs-sm);
+}
+
+.fs-17 {
+    font-size: var(--fs-md);
+}
+
+.fs-18 {
+    font-size: var(--fs-lg);
+}
+
+.fs-24 {
+    font-size: var(--fs-xl);
+}
+
+.fs-30 {
+    font-size: var(--fs-2xl);
+}
+
+.fs-40 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-44 {
+    font-size: var(--fs-4xl);
+}
+
+/* color */
+.bs-yellow {
+    color: var(--bs-yellow);
+}
+
+.bs-yellow-shadow {
+    color: var(--bs-yellow-shadow);
+}
+
+.bs-white {
+    color: var(--bs-white);
+}
+
+.bs-black {
+    color: var(--bs-black);
+}
+
+.bs-grey {
+    color: var(--bs-grey);
+}
+
+.bg-lightgrey {
+    background-color: var(--bs-lightgrey);
+}
+
+.bg-offwhite {
+    background-color: var(--bs-offwhite);
+}
+
+/* font-family */
+.ff-lora {
+    font-family: var(--ff-lora);
+}
+
+.ff-nunito {
+    font-family: var(--ff-nunito);
+}
+
+/* line-height */
+.lh-133 {
+    line-height: 133.4%;
+}
+
+.lh-176 {
+    line-height: 176%;
+}
