@@ -11,6 +11,8 @@
     --fs-2xl: 30px;
     --fs-3xl: 40px;
     --fs-4xl: 44px;
+    --fs-5xl: 48px;
+    --fs-6xl: 52px;
     /* colors */
     --bs-yellow: #FACA10;
     --bs-yellow-shadow: #FACA1059;
@@ -62,6 +64,14 @@
     font-size: var(--fs-4xl);
 }
 
+.fs-48 {
+    font-size: var(--fs-5xl);
+}
+
+.fs-52 {
+    font-size: var(--fs-6xl);
+}
+
 /* color */
 .bs-yellow {
     color: var(--bs-yellow);
@@ -90,6 +100,9 @@
 .bg-offwhite {
     background-color: var(--bs-offwhite);
 }
+.bg-yellow{
+    background-color: var(--bs-yellow);
+}
 
 /* font-family */
 .ff-lora {
@@ -115,4 +128,13 @@
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
+}
+.bg-black{
+    background-color: var(--bs-black)
+}
+.bg-white{
+    background-color: var(--bs-white);
+}
+.bg-light{
+    background-color: #FBFBFB;
 }
