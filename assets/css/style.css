@@ -470,6 +470,13 @@
     scale: 0.4;
     opacity: 0.5;
 }
+.my-container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
 .d_none {
     display: none;
