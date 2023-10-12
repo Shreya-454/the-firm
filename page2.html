@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>the-firm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+
+</head>
+
+<body class="overflow-hidden">
+    <div id="preloder"
+        class="animation min-vh-100 w-100 bg-yellow position-fixed d-flex align-items-center justify-content-center flex-column z-index-3 duration_300 cursor-pointer">
+        <img src="./assets/images/png/logo-1.png" alt="page-logo">
+        <p class="fs-100 bs-black ff-nunito pt-5">loading......</p>
+    </div>
+    <button class="top-btn pos-fix d_none" id="back" onclick="window.scrollTo(0,0)">top</button>
+
+    <!--=================== header =====================-->
+    <header class="min-vh-100 header-bg">
+        <!--======= here start nav-bar ======-->
+        <nav class="py-4">
+            <div class="my-container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <img src="./assets/images/png/logo-1.png" alt="logo-1">
+                    <ul class="d-flex align-items-center gap-4 justify-content-center align-items-center  mobile_view"
+                        id="navbar">
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">Home</a>
+                        </li>
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">Solutions</a>
+                        </li>
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">Cases</a>
+                        </li>
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">About
+                                Us</a></li>
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">Blog</a>
+                        </li>
+                        <li><a href="" onclick="openNav()"
+                                class="bs-black ff-nunito  fs-18 fw-bold lh-nor list-unstyled text-decoration-none nav-line position-relative z-1">Contact
+                                Us</a></li>
+                        <li><button
+                                class="getbtn bs-white ff-nunito fs-18 fw-bold list-unstyled text-decoration-none">Get
+                                in Touch</button></li>
+                    </ul>
+                    <div id="menubtn-icon" onclick="openNav()" class="d-xl-none z-3 pe-2 pt-2">
+                        <div class="line2"></div>
+                        <div class="line3 my-2"></div>
+                        <div class="line4"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!---====== start-hero-section =====-->
+        <section>
+            <div class="position-relative">
+                <div class="my-container">
+                    <div class="row">
+                        <div class="col-lg-5 col-12 py-lg-5 py-2 my-5">
+                            <h2 class="bs-black ff-nunito header-text fs-44 fw-bolder lh-133 pt-lg-5 pt-2">Our Research
+                                &<br class="d-md-block d-none">
+                                Case Studies</h2>
+                            <p class="bs-black ff-lora fs-18 fw-normal lh-176 pt-4 mw-437">Lorem Ipsum is simply dummy
+                                text
+                                of the printing
+                                and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy.</p>
+                            <button
+                                class="getbtn bs-white ff-nunito fs-18 fw-bold mt-4 list-unstyled text-decoration-none">Get
+                                in Touch</button>
+                        </div>
+                        <div class="col-lg-7 col-12">
+                            <div class="pos-abs">
+                                <img src="./assets/images/png/class-img.png" alt="class-img"
+                                    class=" w-100 h-100 radius-37">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--=================== section-3================= -->
+    <section>
+        <div class="py-lg-5">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center ">
+                    <p class="bs-black ff-nunito fs-44 fw-bolder lh-133 py-5">Our <span class="class-line">Cases</span>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-9 mb-4 mb-lg-0">
+                        <div class="row">
+                            <div
+                                class="col-md-6 col-lg-3 col-12 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                                <div class="box1 cursor-pointer position-relative">
+                                    <span class="position-abs"><svg xmlns="http://www.w3.org/2000/svg" width="233"
+                                            height="104" viewBox="0 0 233 104" fill="none">
+                                            <line x1="224" y1="45" x2="1" y2="45" stroke="#F7F7F7" stroke-width="2" />
+                                            <g filter="url(#filter0_d_3307_2910)">
+                                                <rect x="48" y="18" width="157" height="48" rx="5" fill="white" />
+                                                <rect x="49" y="19" width="155" height="46" rx="4" stroke="#F7F7F7"
+                                                    stroke-width="2" />
+                                            </g>
+                                            <circle cx="11" cy="44" r="10" fill="#F7F7F7" stroke="#F7F7F7"
+                                                stroke-width="2" />
+                                            <defs>
+                                                <filter id="filter0_d_3307_2910" x="20" y="0" width="213" height="104"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feMorphology radius="12" operator="erode" in="SourceAlpha"
+                                                        result="effect1_dropShadow_3307_2910" />
+                                                    <feOffset dy="10" />
+                                                    <feGaussianBlur stdDeviation="20" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0.35 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_3307_2910" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_3307_2910" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <p class="ff-nunito fs-18 fw-normal lh-nor">Show All</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-6 col-lg-3 col-12 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                                <div class="box1 cursor-pointer position-relative">
+                                    <span class="pos-abs1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="240" height="104"
+                                            viewBox="0 0 240 104" fill="none">
+                                            <line x1="184" y1="43" x2="19" y2="43" stroke="#F7F7F7" stroke-width="2" />
+                                            <g filter="url(#filter0_d_33507_2915)">
+                                                <rect x="42" y="18" width="170" height="48" rx="5" fill="white" />
+                                                <rect x="43" y="19" width="168" height="46" rx="4" stroke="#F7F7F7"
+                                                    stroke-width="2" />
+                                            </g>
+                                            <circle cx="11" cy="44" r="10" fill="#F7F7F7" stroke="#F7F7F7"
+                                                stroke-width="2" />
+                                            <defs>
+                                                <filter id="filter0_d_33077_2915" x="14" y="0" width="226" height="104"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feMorphology radius="12" operator="erode" in="SourceAlpha"
+                                                        result="effect1_dropShadow_3307_2915" />
+                                                    <feOffset dy="10" />
+                                                    <feGaussianBlur stdDeviation="20" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0.35 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_3307_2915" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_3307_2915" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg></span>
+                                    <p class=" ff-nunito fs-18 fw-normal lh-nor">Coaching</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-6 col-lg-3 col-12 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                                <div class="box1 cursor-pointer position-relative">
+                                    <span class="pos-abs2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="240" height="104"
+                                            viewBox="0 0 240 104" fill="none">
+                                            <line x1="184" y1="43" x2="19" y2="43" stroke="#F7F7F7" stroke-width="2" />
+                                            <g filter="url(#filter0_d_33407_2915)">
+                                                <rect x="42" y="18" width="170" height="48" rx="5" fill="white" />
+                                                <rect x="43" y="19" width="168" height="46" rx="4" stroke="#F7F7F7"
+                                                    stroke-width="2" />
+                                            </g>
+                                            <circle cx="11" cy="44" r="10" fill="#F7F7F7" stroke="#F7F7F7"
+                                                stroke-width="2" />
+                                            <defs>
+                                                <filter id="filter0_d_33097_2915" x="14" y="0" width="226" height="104"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feMorphology radius="12" operator="erode" in="SourceAlpha"
+                                                        result="effect1_dropShadow_3307_2915" />
+                                                    <feOffset dy="10" />
+                                                    <feGaussianBlur stdDeviation="20" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0.35 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_3307_2915" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_3307_2915" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg></span>
+                                    <p class=" ff-nunito fs-18 fw-normal lh-nor">Digital Partners</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-6 col-lg-3  col-12 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                                <div class="box1 cursor-pointer position-relative">
+                                    <span class="pos-abs3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="189" height="104"
+                                            viewBox="0 0 189 104" fill="none">
+                                            <line x1="183" y1="43" x2="16" y2="43" stroke="#F7F7F7" stroke-width="2" />
+                                            <g filter="url(#filter0_d_3307_2920)">
+                                                <rect x="41" y="18" width="120" height="48" rx="5" fill="white" />
+                                                <rect x="42" y="19" width="118" height="46" rx="4" stroke="#F7F7F7"
+                                                    stroke-width="2" />
+                                            </g>
+                                            <circle cx="11" cy="44" r="10" fill="#F7F7F7" stroke="#F7F7F7"
+                                                stroke-width="2" />
+                                            <defs>
+                                                <filter id="filter0_d_3307_2920" x="13" y="0" width="176" height="104"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feMorphology radius="12" operator="erode" in="SourceAlpha"
+                                                        result="effect1_dropShadow_3307_2920" />
+                                                    <feOffset dy="10" />
+                                                    <feGaussianBlur stdDeviation="20" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0.35 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_3307_2920" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_3307_2920" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg></span>
+                                    <p class=" ff-nunito fs-18 fw-normal lh-nor">SEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end mb-4 mb-lg-0">
+                        <div class="form d-flex align-items-center">
+                            <input type="text" placeholder="Search"
+                                class=" ff-nunito fs-18 fw-normal lh-nor border-none bs-grey w-80">
+                            <div class="search-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3307_2900)">
+                                        <path
+                                            d="M19.7556 18.5773L14.0682 12.8899C15.1699 11.5291 15.8332 9.7999 15.8332 7.9166C15.8332 3.55164 12.2815 0 7.91656 0C3.55161 0 0 3.55161 0 7.91656C0 12.2815 3.55164 15.8332 7.9166 15.8332C9.7999 15.8332 11.5291 15.1699 12.8899 14.0682L18.5773 19.7556C18.7398 19.9181 18.9531 19.9998 19.1665 19.9998C19.3798 19.9998 19.5932 19.9181 19.7557 19.7556C20.0815 19.4298 20.0815 18.9031 19.7556 18.5773ZM7.9166 14.1665C4.46996 14.1665 1.66666 11.3632 1.66666 7.91656C1.66666 4.46992 4.46996 1.66662 7.9166 1.66662C11.3632 1.66662 14.1665 4.46992 14.1665 7.91656C14.1665 11.3632 11.3632 14.1665 7.9166 14.1665Z"
+                                            fill="#C4C4C4" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3307_2900">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================== section-4=================-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/ist-img.png" alt="ist-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/2nd-img.png" alt="2nd-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/3rd-img.png" alt="3rd-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/4th-img.png" alt="4th-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/5th-img.png" alt="3rd-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/6th-img.png" alt="3rd-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/7th-img.png" alt="7th-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/8th-img.png" alt="8th-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-lg-5 pt-3 d-flex justify-content-center">
+                    <div class="lorem-card">
+                        <img src="./assets/images/png/9th-img.png" alt="9th-img" class="w-100 radius-15">
+                        <p class="pt-4 pl-11 fs-24 bs-black ff-nunito fw-bold lh-nor">Lorem Ipsum is</p>
+                        <p class="bs-black ff-lora fs-17 fw-normal lh-176 pt-1 pl-11 mw-308">Lorem Ipsum is simply text
+                            of the printing and type setting industry. make a type specimen.</p>
+                        <div class="card-line mb-4 mt-3"></div>
+                        <div class="d-flex justify-content-center mb-1">
+                            <button class="bs-white fs-18 ff-nunito fw-bold lh-nor read-card-btn mt-1 mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/doc.js"></script>
+</body>
+
+</html>
