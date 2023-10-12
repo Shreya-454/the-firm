@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-=======
+
 // nav-bar
->>>>>>> 801843f859a83701f2aba20b2946d88fa74dacc5
+
 function openNav() {
     document.getElementById("navbar").classList.toggle("end-0");
     document.body.classList.toggle("overflow_hidden");
     document.getElementById("menubtn-icon").classList.toggle("cross")
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -102,5 +98,3 @@ $('.slickSlider2').slick({
         }
     ]
 });
-
->>>>>>> 801843f859a83701f2aba20b2946d88fa74dacc5
