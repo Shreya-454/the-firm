@@ -404,6 +404,15 @@
     opacity: 0.3;
 }
 
+.smallCircle {
+    width: 180px;
+    height: 180px;
+    background: #FFF;
+    border-radius: 50%;
+    border: 2px solid #FACA10;
+    opacity: 1;
+}
+
 .max-width-864 {
     max-width: 864px;
 }
@@ -1121,13 +1130,6 @@ textarea {
 
 /* media queries */
 @media (min-width: 576px) {
-    :root {
-        /* font size */
-        --small1: 17px;
-        --medium: 18px;
-        --large: 24px;
-        --extraLarge: 44px;
-    }
 
     .quotes {
         bottom: -11%;
