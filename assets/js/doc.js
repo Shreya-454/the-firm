@@ -96,3 +96,4 @@ $('.slickSlider2').slick({
         }
     ]
 });
+
