@@ -1,3 +1,10 @@
+// preloader------
+setTimeout(() => {
+    document.getElementById("preloader").classList.add("opacity-0");
+    document.getElementById("preloader").classList.add("pointer_event_none")
+    document.body.classList.remove("overflow-hidden")
+}, 5000);
+
 
 // nav-bar
 
